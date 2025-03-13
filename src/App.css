@@ -1,0 +1,155 @@
+/*---------------------- HEADER------------------- */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    min-width: 10%;
+    @media (max-width: 600px) {
+      align-self: flex-end;
+      width: 30%;
+    }
+  }
+}
+
+/*---------------------- LOCALISATION------------------- */
+.container-info {
+  position: absolute;
+  top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* align-items: center; */
+  h1{
+    margin: 0;
+    margin-bottom: 5px;
+    color: #b59d00;
+  }
+
+  img {
+    width: 3em;
+    margin-right: 5px;
+  }
+
+  .localisation , .contact{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .container-localisation {
+  }
+}
+
+/*---------------------- SKILL BAR------------------- */
+.skill-bar {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f3e6a2;
+  border-radius: 70px;
+  padding: 1%;
+  margin: auto;
+  width: 60dvw;
+  @media (max-width: 600px) {
+    width: 90dvw;
+  }
+
+  img {
+    height: 4.5rem;
+  }
+}
+
+/*---------------------- PROJECTS------------------- */
+.presentation-project{
+  h1{
+    margin: 0;
+    margin-top: 2%;
+  }
+  p{
+    margin: 0;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #827a56;
+    font-weight: 100;
+  }
+
+}
+.container-projects {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+
+  .project {
+    border: thick double #f0e1c1;
+    box-shadow: 5px 5px 5px rgb(188, 188, 184);
+    margin-right: 5px;
+    width: 30dvw;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 3%;
+    overflow: hidden;
+    h2 {
+      text-align: center;
+      color: rgb(95, 77, 4);
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .picture-project {
+      width: 30dvw;
+      height: 300px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .line-project {
+      font-weight: 700;
+      font-style: normal;
+      color: #3e3601;
+      border-bottom: solid 1px #eece01;
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1030px) {
+  .container-projects {
+    grid-template-columns: 1fr 1fr;
+
+    .project {
+      width: 45dvw;
+      .picture-project {
+        width: 45dvw;
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .container-projects {
+    grid-template-columns: 1fr;
+
+    .project {
+      width: 90dvw;
+      .picture-project {
+        width: 90dvw;
+        height: 200px;
+      }
+    }
+  }
+}
