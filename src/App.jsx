@@ -1,6 +1,6 @@
 import './App.css'
-import Header from './components/header'
-import Info from './components/localisation'
+import Header from './components/Header'
+import Info from './components/Localisation'
 import Projects from './components/Projects'
 import SkillBar from './components/SkillsBar'
 
