@@ -1,7 +1,7 @@
 import wildSeries from "../assets/wild-series.png";
 import wildNews from "../assets/wild-news.png";
 import oldCV from "../assets/old-cv.png";
-import soloRush from "../assets/solo-Rush.png";
+import soloRush from "../assets/solo-rush.png";
 import hackathon from "../assets/hackathon.png";
 
 export const projectList = [
