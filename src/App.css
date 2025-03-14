@@ -29,14 +29,15 @@
   }
 
   img {
-    width: 3em;
+    width: 2em;
     margin-right: 5px;
   }
 
   .localisation , .contact{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10%;
+    align-items: center;
+    margin-bottom: 5%;
     ul {
       margin: 0;
       padding: 0;

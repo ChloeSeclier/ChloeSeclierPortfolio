@@ -7,6 +7,7 @@ import hackathon from "../assets/hackathon.png";
 export const projectList = [
   {
     nameProject: "1. Wild Series",
+    linkProjetc:"https://chloeseclier.github.io/wild-series-FRONT/",
     pictureProject: wildSeries,
     nbPeople: 1,
     time: "2 semaines",
