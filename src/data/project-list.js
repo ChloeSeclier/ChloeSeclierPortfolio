@@ -21,7 +21,7 @@ export const projectList = [
     pictureProject: hackathon,
     nbPeople: 3,
     time: "36h",
-    but: "Réaliser un site sous le thème nature & découverte en JS",
+    but: "Réaliser un site sous le thème nature & déconnexion en JS",
     description: "Jouer pour gagner un lot.",
     date:"mars 2025"
   },
@@ -31,7 +31,7 @@ export const projectList = [
     pictureProject: wildNews,
     nbPeople: 3,
     time: "6 semaines",
-    but: "Utiliser react avec une API",
+    but: "Réaliser un site en JS, React avec une API existante",
     description:
       "Trouver des articles d'actualité et les garder en favoris / historique.",
       date:"fevrier 2025"
