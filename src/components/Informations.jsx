@@ -23,7 +23,7 @@ export default function Info() {
           />
           <ul>
             <li>Orléans</li>
-            <li>Paris Sud-Est</li>
+            <li>Paris</li>
           </ul>
         </div>
 

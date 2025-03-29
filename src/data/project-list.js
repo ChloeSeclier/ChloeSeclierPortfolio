@@ -1,6 +1,5 @@
 import wildSeries from "../assets/wild-series.png";
 import wildNews from "../assets/wild-news.png";
-import oldCV from "../assets/old-cv.png";
 import soloRush from "../assets/solo-rush.png";
 import hackathon from "../assets/hackathon.png";
 
@@ -45,15 +44,5 @@ export const projectList = [
     but: "Réaliser un site One Page en HTML/CSS",
     description: "Page publiant un voyage.",
     date:"janvier 2025"
-  },
-  {
-    nameProject: "5. Ancien CV",
-    linkProjetc:"https://chloeseclier.github.io/Chloe_Seclier_CV_EnLigne/",
-    pictureProject: oldCV,
-    nbPeople: 1,
-    time: "pas de durée",
-    but: "projet perso HTML/CSS",
-    description: "présentation d'un CV",
-    date:"novembre 2024"
   },
 ];
