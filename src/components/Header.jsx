@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="header">
       <img src={profilPicture} alt="" />
-      <h1>Concepteur Développeur d’Application</h1>
+      <h1>Concepteur Développeur d’Applications</h1>
       <a href={cvPDF} target="_blank"class="button" >
       
         <svg

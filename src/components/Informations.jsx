@@ -21,10 +21,7 @@ export default function Info() {
             alt="localisation"
             title="localisation"
           />
-          <ul>
-            <li>Orléans</li>
-            <li>Paris</li>
-          </ul>
+          <p>Orléans</p>
         </div>
 
         <div className="contact">
@@ -42,7 +39,6 @@ export default function Info() {
           </ul>
         </div>
       </div>
-
     </>
   );
 }
